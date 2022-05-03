@@ -1,0 +1,3 @@
+Config = {
+      eventESX = "esx:getSharedObject"
+}

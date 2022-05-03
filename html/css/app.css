@@ -1,0 +1,75 @@
+﻿@font-face {
+	font-family: 'Teko';
+	src: url('../fonts/Teko.woff') format('woff2'),
+		url('../fonts/Teko.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFDinDisplayPro-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/PFDinDisplayPro-Regular.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'PFDinDisplayPro-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/PFDinDisplayPro-Bold.woff') format('woff');
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'PFDinDisplayPro-Bold', serif;
+}
+
+body {
+	background-color: rebeccapurple;
+}
+
+.infos {
+    position: absolute;
+    top: 2%;
+    right: 0.5%;
+    width: 550px;
+
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	font-size: 15px;
+
+	justify-content: space-between;
+}
+
+.logo {
+	margin-left: 10px;
+	height: 80px;
+}
+
+.list {
+	display: flex;
+	flex-direction: row;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	height: 70px;
+	margin-top: 12px;
+	margin-left: 20px;
+}
+
+.discord {
+	color: #fff;
+	font-size: 20px;
+}
+
+
+.infos-2 {
+
+}
